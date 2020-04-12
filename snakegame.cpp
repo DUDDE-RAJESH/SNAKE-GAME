@@ -69,7 +69,7 @@ void draw()
   	cout<<"#";
     }
     cout<<endl;
-	cout<<"score:"<<score<<endl;;  
+	cout<<"score:"<<score<<endl; 
 }
 void input()
 {
@@ -152,6 +152,8 @@ int main()
 		cout<<"d-to move right"<<endl;
 		cout<<"w-to move up "<<endl;
 		cout<<"s-to move down"<<endl;
+	        cout<<"use small letters for input"<<endl;
+	        cout<<"don't swing the snake(forward-backward move)it terminate the game"<<endl;
 		cout<<"press x-to exit"<<endl;
 		sleep(2.5);
 	system("clr");
